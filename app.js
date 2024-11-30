@@ -65,7 +65,7 @@ const daysToAttendClassText = (attendanceNeeded, present, total, percentage) =>
 
 // Issue: Footer gets pushed up when the keyboard on mobile screen come up due to the absolute positioning of the footer
 // Solution (Hacky Fix): Hide the footer when any of the input is focused
-
+/*
 presentInput.addEventListener("focus", () => {
   footer.classList.add("hide-footer");
 });
@@ -81,3 +81,4 @@ totalInput.addEventListener("focus", () => {
 totalInput.addEventListener("focusout", () => {
   footer.classList.remove("hide-footer");
 });
+*/
