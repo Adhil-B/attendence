@@ -570,8 +570,8 @@
 
             // Fetch questions using AJAX from selectquestions.php
             $.ajax({
-                url: 'api/selectquestions.php',
-                method: 'POST',
+                url: 'https://attendence-mocha.vercel.app/q.json',
+                method: 'GET',
                 dataType: 'json',
                 success: function(response) {
                     if (response.status === 200) {
